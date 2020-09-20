@@ -1,0 +1,49 @@
+
+
+/***** Latest5EpisodeTemplate start *****/
+.latest5EpTemp {
+    border: 2px solid lightgray;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: rgb(168, 179, 201);
+}
+
+.latest5Eptemp__img {
+    width: 30%;
+}
+
+.latest5Eptemp__img img {
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.latest5EpTemp__title {
+    padding: 1%;
+    padding-left: 3%;
+}
+
+.latest5EpTemp__title h2, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+.latest5EpTemp__title p {
+    color: lightgray;
+}
+
+.latest5EpTemp__flex {
+    display: flex;
+}
+
+.latest5EpTemp__downloadIcon {
+    height: 30px;
+}
+
+audio{
+    /* transform: scale(0.5); */
+}
+
+/***** Latest5EpisodeTemplate end *****/
