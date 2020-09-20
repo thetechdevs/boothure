@@ -9,8 +9,8 @@ const Latest5EpisodeTemplate = ({ image, title, data, btn, audio }) => {
                         <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2017/11/shutterstock-185032865-700x467-1509523022.jpg" alt="img"/>
                     </div>
                     
-                    <div className='latest5EpTemp__title'>
-                        <h2><strong>Vhoot.com</strong></h2>
+                    <div className='latest5EpTemp__DetailSection'>
+                        <h2 className='latest5EpTemp__title'><strong>Vhoot.com</strong></h2>
                         <p>date: 20/07/2020</p>
                         <div className='latest5EpTemp__flex'>
                             <img className='latest5EpTemp__downloadIcon' src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Downloads-icon.png" alt="download"/>
@@ -20,10 +20,8 @@ const Latest5EpisodeTemplate = ({ image, title, data, btn, audio }) => {
                                 <source src='' type='audio/mpeg'/>
                             </audio> */}         
                         </div>
-                        
                     </div>
-                </div>
-                
+                </div> 
         </section>
     )
 };

@@ -2,11 +2,11 @@
 
 /***** Latest5EpisodeTemplate start *****/
 .latest5EpTemp {
-    border: 2px solid lightgray;
-    margin: 2%;
+    border: 1px solid lightgray;
+    margin: 3%;
     padding: 1%;
     border-radius: 20px;
-    background-color: rgb(168, 179, 201);
+    background-color: #343f54;
 }
 
 .latest5Eptemp__img {
@@ -20,18 +20,23 @@
     padding: 2%;
 }
 
-.latest5EpTemp__title {
+.latest5EpTemp__DetailSection {
     padding: 1%;
     padding-left: 3%;
+    width: 70%;
 }
 
-.latest5EpTemp__title h2, p, img {
+.latest5EpTemp__DetailSection h2, p, img {
     margin: 0;
     padding: 0;
 }
 
-.latest5EpTemp__title p {
-    color: lightgray;
+.latest5EpTemp__DetailSection p {
+    color: #ccc8c1;
+}
+
+.latest5EpTemp__title {
+    color: #e8e6e3;
 }
 
 .latest5EpTemp__flex {
@@ -45,5 +50,75 @@
 audio{
     /* transform: scale(0.5); */
 }
-
 /***** Latest5EpisodeTemplate end *****/
+
+
+/***** categoryOfEp start *****/
+.categoryOfEp {
+    margin: 10% 0%;
+}
+
+.categoryOfEp h1{
+    margin: 2% 3%;
+    padding: 3%;
+    border-bottom: 2px solid #ff1c34;
+    border-radius: 10px;
+}
+
+.categoryOfEp__heading {
+
+    text-align: center;
+    color: red;
+    background-color: #433c8f;
+}
+
+
+/***** categoryOfEp start *****/
+
+
+/***** categoryOfEpTemp start *****/
+.categoryOfEpTemp {
+    border: 1px solid lightgray;
+    margin: 3%;
+    padding: 1%;
+    border-bottom: 5px solid #eb6f6d;
+    border-radius: 20px;
+    background-color: #241a8a;
+}
+
+
+
+.categoryOfEpTemp__img {
+    width: 30%;
+}
+
+.categoryOfEpTemp__img img {
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.categoryOfEpTemp__DetailSection {
+    padding: 1%;
+    padding-left: 3%;
+    width: 70%;
+}
+
+.categoryOfEpTemp__DetailSection h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.categoryOfEpTemp__DetailSection {
+    color: #ccc8c1;
+}
+
+.categoryOfEpTemp__title {
+    color: #eb6f6d;
+}
+
+.categoryOfEpTemp__flex {
+    display: flex;
+}
+/***** categoryOfEpTemp start *****/
