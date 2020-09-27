@@ -1,24 +1,24 @@
 import React from 'react';
 import './Home.css';
+import { Link, useHistory } from 'react-router-dom';
 
 // images
-import boothFm from '../../img/boothFm.png'
-import boothDotCom from '../../img/boothDotCom.png'
-import home from '../../img/home2.png'
-import { Link } from 'react-router-dom';
+import boothFm from '../../img/boothFm.png';
+import boothDotCom from '../../img/boothDotCom.png';
+import home from '../../img/home2.png';
 
 const Footer = () => {
+    const history = useHistory();
+    
+    const boothFMClick = () => history.push("/boothFM");
+    const homeClick = () => history.push("/");
+    const boothDotComClick = () => history.push("/boothDotCom");
+
     return (
         <section className='footer'>
-            {/* <Link to='/boothFM'> */}
-                <input className='footer__input' type="radio" name="s" id="s1" />
-            {/* </Link> */}
-            {/* <Link to='/'> */}
-                <input className='footer__input' type="radio" name="s" id="s2" checked="checked" />
-            {/* </Link> */}
-            {/* <Link to='/boothDotCom'> */}
-                <input className='footer__input' type="radio" name="s" id="s3" />
-            {/* </Link> */}
+            <input className='footer__input' type="radio" name="s" id="s1" onClick={boothFMClick} />
+            <input className='footer__input' type="radio" name="s" id="s2" checked="checked" onClick={homeClick} />
+            <input className='footer__input' type="radio" name="s" id="s3" onClick={boothDotComClick} />
 
             <label className='footer__label' for="s1"><img src={boothFm} alt="boothFm" /></label>
             <label className='footer__label' for="s2"><img src={home} alt="home" /></label>
