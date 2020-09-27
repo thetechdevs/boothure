@@ -1,0 +1,30 @@
+/* MonthEpisode start */
+
+.MonthEpisode__page-head {
+    color: rgb(120, 226, 33);
+    text-align: center;
+    /* background-color: rgb(252, 23, 23); */
+    border: 2px solid rgb(120, 226, 33);
+    border-top: none;
+    /* border-radius: 0px 0px 20px 20px; */
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 30px;
+
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 96%; 
+}
+
+.MonthEpisode__linkText {
+    text-decoration: none;
+    color: rgb(120, 226, 33);
+}
+
+.MonthEpisode__body {
+    margin-top: 55px;
+}
+
+
+/* MonthEpisode end */
