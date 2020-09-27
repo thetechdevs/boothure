@@ -1,0 +1,30 @@
+/* Episode start */
+
+.Episode__page-head {
+    color: rgb(33, 226, 146);
+    text-align: center;
+    /* background-color: rgb(252, 23, 23); */
+    border: 2px solid rgb(33, 226, 146);
+    border-top: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 30px;
+
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 96%; 
+}
+
+.Episode__linkText {
+    text-decoration: none;
+    color: rgb(33, 226, 146);
+}
+
+.Episode__body {
+    margin-top: 55px;
+}
+
+
+/* Episode end */

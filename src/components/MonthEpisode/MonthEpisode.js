@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
+import './MonthEpisode.css'
+import './../Episode/Episode.css'
 
 
 import boothImage from '../../img/booth.png'
@@ -8,10 +10,14 @@ import { BoothDotComTemplate } from '../BoothDotCom/BoothDotCom';
 
 
 const MonthEpisode = () => {
-
+    
+    console.log('dfgdsfg')
+    useEffect(() => console.log(window.location.href))
 
     return (
         <section className='MonthEpisode'>
+            <h4 className='Episode__page-head'><Link to='/' className='Episode__linkText'>Vhoot.com</Link> / year</h4>
+            <div className='Episode__body'>
             <Link to={"/episode/year/January"}>
                 <BoothDotComTemplate 
                     image = {boothImage} 
@@ -118,7 +124,8 @@ const MonthEpisode = () => {
                     month = 'December' 
                     year = ''>
                 </BoothDotComTemplate>  
-            </Link>       
+            </Link>
+            </div>       
         </section>
     );
 };

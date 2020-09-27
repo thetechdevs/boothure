@@ -33,7 +33,7 @@ function App() {
                         <BoothDotCom />
                     </Route>
                     
-                    <Route path='/episode/year/:month'>
+                    <Route path='/episode/:year/:month'>
                         <Episode />
                     </Route>
 
