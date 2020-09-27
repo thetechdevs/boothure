@@ -1,14 +1,15 @@
 import React from 'react';
 import './Home.css';
+import { Link } from "react-router-dom";
 
 // images
 import BoothFM from '../../img/booth.png';
 import BoothDotCom from '../../img/booth.png';
 
-const CategoryOfEpisodeTemplate = ({ image, title, description }) => {
+const CategoryOfEpisodeTemplate = ({ image, title, description, path }) => {
     return (
         <section className='categoryOfEpTemp'>
-            <div className='latest5Eptemp__containerDiv categoryOfEpTemp__flex'>
+            <div className='categoryOfEpTemp__containerDiv categoryOfEpTemp__flex'>
                     <div className='categoryOfEpTemp__img'>
                         <img src={image} alt="img"/>
                     </div>
@@ -18,7 +19,7 @@ const CategoryOfEpisodeTemplate = ({ image, title, description }) => {
                         <p>{description}</p>
                     </div>
                 </div>
-        </section>
+        </section> 
     )
 };
 
@@ -26,16 +27,24 @@ const CategoryOfEpisode = () => {
     return (
         <section className='categoryOfEp'>
             <h1 className='categoryOfEp__heading'>Category</h1>
-            <CategoryOfEpisodeTemplate
-                image={BoothFM}
-                title='Booth FM'
-                description='Here you can find all booth fm (2010 - 2019)'
-            />
-            <CategoryOfEpisodeTemplate
-                image={BoothDotCom}
-                title='Booth .Com'
-                description='Here you can find all booth dot com'
-            />
+
+            <Link to="/boothFM">
+                <CategoryOfEpisodeTemplate
+                    image={BoothFM}
+                    title='Booth FM'
+                    path = 'boothFM'
+                    description='Here you can find all booth fm (2010 - 2019)'
+                />
+            </Link>
+
+            <Link to="/boothDotCom">
+                <CategoryOfEpisodeTemplate
+                    image={BoothDotCom}
+                    title='Booth .Com'
+                    path = 'boothDotCom'
+                    description='Here you can find all booth dot com'
+                />
+            </Link>
         </section>
     )
 };

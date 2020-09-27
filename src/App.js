@@ -9,6 +9,8 @@ import Footer from './components/Home/Footer';
 import BoothFM from './components/BoothFM/BoothFM';
 import BoothDotCom from './components/BoothDotCom/BoothDotCom';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import MonthEpisode from './components/MonthEpisode/MonthEpisode';
+import Episode from './components/Episode/Episode';
 
 function App() {
     return (
@@ -20,24 +22,30 @@ function App() {
                         <Header />
                         <Latest5Episode />
                         <CategoryOfEpisode />
-                        <Footer />
+                        
                     </Route>
 
                     <Route path='/boothFM'>
                         <BoothFM />
-                        <Footer />
                     </Route>
 
                     <Route path='/boothDotCom'>
                         <BoothDotCom />
-                        <Footer />
+                    </Route>
+                    
+                    <Route path='/episode/year/:month'>
+                        <Episode />
+                    </Route>
+
+                    <Route path='/episode/:year'>
+                        <MonthEpisode />
                     </Route>
 
                     <Route path='*'>
                         <PageNotFound />
-                        <Footer />
                     </Route>
                 </Switch>
+                <Footer />
             </Router>
         </section>
     );
