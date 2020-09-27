@@ -1,0 +1,50 @@
+
+/***** BoothDotComTemp start *****/
+.BoothDotComTemp {
+    margin: 3%;
+    padding: 1%;
+    border-bottom: 5px solid #eb6e6c;
+    border-radius: 20px;
+    background-color: #1d156e;
+}
+
+
+
+.BoothDotComTemp__img {
+    width: 30%;
+}
+
+.BoothDotComTemp__img img {
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.BoothDotComTemp__DetailSection {
+    padding: 1%;
+    padding-left: 3%;
+    width: 70%;
+}
+
+.BoothDotComTemp__DetailSection h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.BoothDotComTemp__DetailSection h3 {
+    color: #4fcb54;
+}
+
+.BoothDotComTemp__DetailSection {
+    color: #ccc8c1;
+}
+
+.BoothDotComTemp__title {
+    color: #eb6f6d;
+}
+
+.BoothDotComTemp__flex {
+    display: flex;
+}
+/***** BoothDotComTemp start *****/
