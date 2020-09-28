@@ -22,7 +22,6 @@ function App() {
                         <Header />
                         <Latest5Episode />
                         <CategoryOfEpisode />
-                        
                     </Route>
 
                     <Route path='/boothFM'>
@@ -45,6 +44,7 @@ function App() {
                         <PageNotFound />
                     </Route>
                 </Switch>
+                <br/><br/><br/><br/><br/>
                 <Footer />
             </Router>
         </section>

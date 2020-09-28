@@ -1,7 +1,9 @@
 const data = {
     // home page
     home: {
-        header: {},
+        header: {
+            title: 'title'
+        },
         latest5Episode: {},
         categoryOfEpisode: {},
         footer: {},

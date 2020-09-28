@@ -5,7 +5,7 @@ import './Home.css';
 import data from '../../data/data'
 
 const Header = () => {
-    const title = data.home.title;
+    const title = data.home.header.title;
     return (
         <section className='header'>
             <h1>{title}</h1>
