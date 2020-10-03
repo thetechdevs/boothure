@@ -1,3 +1,37 @@
+
+/***** Home start *****/
+.header {
+    text-align: center;
+    margin: 10px;
+    margin-top:7px;
+    background-color: #d9eeff;
+    padding: 8px;
+    /* border: 2px solid rgb(131, 80, 80); */
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 90%;
+}
+
+.header__searchIcon {
+    background-color: white;
+    padding: 0px 10px 2px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.header__searchBox {
+    border: none;
+    padding: 4px 7px;
+    width: 70%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: white;
+}
+/***** Home end *****/
+
+
 /***** Latest5EpisodeTemplate start *****/
 .latest5EpTemp {
   border: 1px solid lightgray;
@@ -46,11 +80,13 @@ img {
 .latest5EpTemp__downloadIcon {
   height: 30px;
 }
-
-audio {
-  /* transform: scale(0.5); */
-}
 /***** Latest5EpisodeTemplate end *****/
+
+/***** latest5Ep start *****/
+.latest5Ep {
+    margin-top: 15%;
+}
+/***** latest5Ep end *****/
 
 /***** categoryOfEp start *****/
 .categoryOfEp {
@@ -65,21 +101,25 @@ audio {
 }
 
 .categoryOfEp__heading {
-  text-align: center;
-  color: red;
-  background-color: #433c8f;
+    text-align: center;
+    color: red;
+    background-color: #d9eeff;
 }
 
+.categoryOfEp__LinkText {
+    text-decoration: none;
+}
 /***** categoryOfEp start *****/
 
-/***** categoryOfEpTemp start *****/
+
+/***** CategoryOfEpisodeTemplate start *****/
 .categoryOfEpTemp {
-  border: 1px solid lightgray;
-  margin: 3%;
-  padding: 1%;
-  border-bottom: 5px solid #eb6f6d;
-  border-radius: 20px;
-  background-color: #241a8a;
+    border: 1px solid lightgray;
+    margin: 3%;
+    padding: 1%;
+    border-bottom: 5px solid #eb6f6d;
+    border-radius: 20px;
+    background-color: #d9eeff;
 }
 
 .categoryOfEpTemp__img {
@@ -113,10 +153,19 @@ p {
   color: #eb6f6d;
 }
 
+.categoryOfEpTemp__titleName {
+    text-decoration: none;
+}
+
+.categoryOfEpTemp__paragraph {
+    text-decoration: none;
+}
+
 .categoryOfEpTemp__flex {
   display: flex;
 }
-/***** categoryOfEpTemp start *****/
+
+/***** CategoryOfEpisodeTemplate start *****/
 
 /***** footer start *****/
 .footer {
