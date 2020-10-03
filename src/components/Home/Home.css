@@ -1,251 +1,253 @@
-
-
 /***** Latest5EpisodeTemplate start *****/
 .latest5EpTemp {
-    border: 1px solid lightgray;
-    margin: 3%;
-    padding: 1%;
-    border-radius: 20px;
-    background-color: #343f54;
+  border: 1px solid lightgray;
+  margin: 3%;
+  padding: 1%;
+  border-radius: 20px;
+  background-color: #343f54;
 }
 
 .latest5Eptemp__img {
-    width: 30%;
+  width: 30%;
 }
 
 .latest5Eptemp__img img {
-    width: 100%;
-    height: 95%;
-    border-radius: 20px;
-    padding: 2%;
+  width: 100%;
+  height: 95%;
+  border-radius: 20px;
+  padding: 2%;
 }
 
 .latest5EpTemp__DetailSection {
-    padding: 1%;
-    padding-left: 3%;
-    width: 70%;
+  padding: 1%;
+  padding-left: 3%;
+  width: 70%;
 }
 
-.latest5EpTemp__DetailSection h2, p, img {
-    margin: 0;
-    padding: 0;
+.latest5EpTemp__DetailSection h2,
+p,
+img {
+  margin: 0;
+  padding: 0;
 }
 
 .latest5EpTemp__DetailSection p {
-    color: #ccc8c1;
+  color: #ccc8c1;
 }
 
 .latest5EpTemp__title {
-    color: #e8e6e3;
+  color: #e8e6e3;
 }
 
 .latest5EpTemp__flex {
-    display: flex;
+  display: flex;
 }
 
 .latest5EpTemp__downloadIcon {
-    height: 30px;
+  height: 30px;
 }
 
-audio{
-    /* transform: scale(0.5); */
+audio {
+  /* transform: scale(0.5); */
 }
 /***** Latest5EpisodeTemplate end *****/
 
-
 /***** categoryOfEp start *****/
 .categoryOfEp {
-    margin: 10% 0%;
+  margin: 10% 0%;
 }
 
-.categoryOfEp h1{
-    margin: 2% 3%;
-    padding: 3%;
-    border-bottom: 2px solid #ff1c34;
-    border-radius: 10px;
+.categoryOfEp h1 {
+  margin: 2% 3%;
+  padding: 3%;
+  border-bottom: 2px solid #ff1c34;
+  border-radius: 10px;
 }
 
 .categoryOfEp__heading {
-
-    text-align: center;
-    color: red;
-    background-color: #433c8f;
+  text-align: center;
+  color: red;
+  background-color: #433c8f;
 }
-
 
 /***** categoryOfEp start *****/
 
-
 /***** categoryOfEpTemp start *****/
 .categoryOfEpTemp {
-    border: 1px solid lightgray;
-    margin: 3%;
-    padding: 1%;
-    border-bottom: 5px solid #eb6f6d;
-    border-radius: 20px;
-    background-color: #241a8a;
+  border: 1px solid lightgray;
+  margin: 3%;
+  padding: 1%;
+  border-bottom: 5px solid #eb6f6d;
+  border-radius: 20px;
+  background-color: #241a8a;
 }
 
-
-
 .categoryOfEpTemp__img {
-    width: 30%;
+  width: 30%;
 }
 
 .categoryOfEpTemp__img img {
-    width: 100%;
-    height: 95%;
-    border-radius: 20px;
-    padding: 2%;
+  width: 100%;
+  height: 95%;
+  border-radius: 20px;
+  padding: 2%;
 }
 
 .categoryOfEpTemp__DetailSection {
-    padding: 1%;
-    padding-left: 3%;
-    width: 70%;
+  padding: 1%;
+  padding-left: 3%;
+  width: 70%;
 }
 
-.categoryOfEpTemp__DetailSection h2, p {
-    margin: 0;
-    padding: 0;
+.categoryOfEpTemp__DetailSection h2,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .categoryOfEpTemp__DetailSection {
-    color: #ccc8c1;
+  color: #ccc8c1;
 }
 
 .categoryOfEpTemp__title {
-    color: #eb6f6d;
+  color: #eb6f6d;
 }
 
 .categoryOfEpTemp__flex {
-    display: flex;
+  display: flex;
 }
 /***** categoryOfEpTemp start *****/
 
-
 /***** footer start *****/
-.footer{
-    /* width: 320px; */
-    width: 100%;
-    height: 260px;
-    margin: auto;
-    display: flex;
-    align-items: flex-end;
-    /* position: relative; */
-    position: fixed;
-    justify-content: center;
-    bottom: 0;
+.footer {
+  /* width: 320px; */
+  width: 100%;
+  /* height: 260px; */
+  height: 106px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  /* position: relative; */
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
 }
-.footer::before{
-    content: '';
-    position: absolute;
-    width: 84%;
-    height: 0px;
-    bottom: -10px;
-    /* box-shadow: 0 0 25px 9px rgba(255, 0, 0, 0.33), 50px 10px 25px 8px rgba(18, 255, 0, 0.33), -40px 8px 25px 9px rgba(242, 255, 0, 0.33); */
-    left: 0;
-    right: 0;
-    margin: auto;
+.footer::before {
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 0px;
+  bottom: -10px;
+  /* box-shadow: 0 0 25px 9px rgba(255, 0, 0, 0.33), 50px 10px 25px 8px rgba(18, 255, 0, 0.33), -40px 8px 25px 9px rgba(242, 255, 0, 0.33); */
+  left: 0;
+  right: 0;
+  margin: auto;
 }
-.footer::after{
-    content: '';
+.footer::after {
+  content: "";
 }
-.footer__content{
-    filter: contrast(20);
-    width: 100%;
-    background-color: white;
-    overflow: hidden;
-    position: absolute;
+.footer__content {
+  filter: contrast(20);
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
 }
-.footer__bottom{
-    width: 100%;
-    height: 66px;
-    /* height: 0px; */
-    background: #524d4d;
-    display: flex;
-    justify-content: center;
-    filter: blur(10px);
-}
-
-.footer__input{
-    display: none;
-}
-.footer__label{
-    cursor: pointer;
-    display: flex;
-    width: 33%;
-    height: 66px;
-    position: relative;
-    z-index: 2;
-    align-items: center;
-    justify-content: center;
-}
-.footer__label img{
-    width: 25px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    position: absolute;
-    z-index: 3;
-    transition: 200ms 100ms cubic-bezier(.14,-0.08,.74,1.4);
-}
-.footer__label::before{
-    content: '';
-    position: absolute;
+.footer__bottom {
+  width: 100%;
+  height: 66px;
+  /* height: 0px; */
+  background: #524d4d;
+  display: flex;
+  justify-content: center;
+  filter: blur(10px);
 }
 
-.footer__circle{
-    width: 60px;
-    height: 60px;
-    background: #524d4d;
-    position: absolute;
-    top: 152px;
-    z-index: 1;
-    border-radius: 50%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transition: 200ms cubic-bezier(.14,-0.08,.74,1.4);
-    box-shadow: 0px 82px 20px 0px rgba(128, 128, 128, 0.29);
+.footer__input {
+  display: none;
 }
-.footer__indicator{
-    width: 70px;
-    height: 70px;
-    background-image: linear-gradient(0deg, rgb(247, 176, 176), rgba(183, 255, 154, 0)), linear-gradient(0deg, rgba(158, 255, 151, 0.75), rgba(183, 255, 154, 0)), linear-gradient(0deg, rgb(180, 255, 251), rgba(183, 255, 154, 0));
-    background-size: cover;
-    background-position: 0 10px;
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    top: -42px;
-    right: 0;
-    margin: auto;
-    transition: 200ms cubic-bezier(.14,-0.08,.74,1.4);
+.footer__label {
+  cursor: pointer;
+  display: flex;
+  width: 33%;
+  height: 66px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+}
+.footer__label img {
+  width: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+  transition: 200ms 100ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+}
+.footer__label::before {
+  content: "";
+  position: absolute;
+}
+
+.footer__circle {
+  width: 60px;
+  height: 60px;
+  background: #524d4d;
+  position: absolute;
+  /* top: 152px; */
+  top: 0px;
+  z-index: 1;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  box-shadow: 0px 82px 20px 0px rgba(128, 128, 128, 0.29);
+}
+.footer__indicator {
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(247, 176, 176),
+      rgba(183, 255, 154, 0)
+    ),
+    linear-gradient(0deg, rgba(158, 255, 151, 0.75), rgba(183, 255, 154, 0)),
+    linear-gradient(0deg, rgb(180, 255, 251), rgba(183, 255, 154, 0));
+  background-size: cover;
+  background-position: 0 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -42px;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
 }
 
 #s1:checked ~ [for="s1"] > img {
-    background-color: #343f54;
-    top: -85px;
+  background-color: #343f54;
+  top: -85px;
 }
 #s1:checked ~ .footer__circle,
 #s1:checked ~ div div .footer__indicator {
-    left: -66%;
+  left: -66%;
 }
 
-#s2:checked ~ [for=s2] > img {
-    top: -85px;
+#s2:checked ~ [for="s2"] > img {
+  top: -85px;
 }
 #s2:checked ~ .footer__circle,
 #s2:checked ~ div div .footer__indicator {
-    left: 0;
+  left: 0;
 }
 
-#s3:checked ~ [for="s3"] > img{
-    top: -85px;
+#s3:checked ~ [for="s3"] > img {
+  top: -85px;
 }
 #s3:checked ~ .footer__circle,
-#s3:checked ~ div div .footer__indicator{
-    left: 66%;
+#s3:checked ~ div div .footer__indicator {
+  left: 66%;
 }
 /***** footer end *****/
