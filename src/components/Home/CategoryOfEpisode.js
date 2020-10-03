@@ -3,8 +3,7 @@ import './Home.css';
 import { Link } from "react-router-dom";
 
 // images
-import BoothFM from '../../img/booth.png';
-import BoothDotCom from '../../img/booth.png';
+import bhootureImg from '../../img/Bhooture-logo.png';
 
 const CategoryOfEpisodeTemplate = ({ image, title, description, path }) => {
     return (
@@ -16,7 +15,7 @@ const CategoryOfEpisodeTemplate = ({ image, title, description, path }) => {
                     
                     <div className='categoryOfEpTemp__DetailSection'>
                         <h2 className='categoryOfEpTemp__title'><strong>{title}</strong></h2>
-                        <p>{description}</p>
+                        <p className='categoryOfEpTemp__paragraph'>{description}</p>
                     </div>
                 </div>
         </section> 
@@ -26,20 +25,20 @@ const CategoryOfEpisodeTemplate = ({ image, title, description, path }) => {
 const CategoryOfEpisode = () => {
     return (
         <section className='categoryOfEp'>
-            <h1 className='categoryOfEp__heading'>Category</h1>
+            <h1 className='categoryOfEp__heading'><strong>Category</strong></h1>
 
-            <Link to="/boothFM">
+            <Link to="/boothFM" className='categoryOfEp__LinkText'>
                 <CategoryOfEpisodeTemplate
-                    image={BoothFM}
+                    image={bhootureImg}
                     title='Booth FM'
                     path = 'boothFM'
                     description='Here you can find all booth fm (2010 - 2019)'
                 />
             </Link>
 
-            <Link to="/boothDotCom">
+            <Link to="/boothDotCom" className='categoryOfEp__LinkText'>
                 <CategoryOfEpisodeTemplate
-                    image={BoothDotCom}
+                    image={bhootureImg}
                     title='Booth .Com'
                     path = 'boothDotCom'
                     description='Here you can find all booth dot com'

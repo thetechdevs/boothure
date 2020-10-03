@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 
 // image
-import boothImage from '../../img/vhoot-hand.jpg'
+import bhootureImg from '../../img/Bhooture-logo.png'
 import download from '../../img/Downloads-icon.png'
 
 export const Latest5EpisodeTemplate = ({ image, title, date, btn, audio }) => {
@@ -33,10 +33,10 @@ export const Latest5EpisodeTemplate = ({ image, title, date, btn, audio }) => {
 const Latest5Episode = () => {
     return (
         <section className='latest5Ep'>
-            <Latest5EpisodeTemplate image={boothImage} date="20/07/2020" title="Vhoot.com"/>
-            <Latest5EpisodeTemplate image={boothImage} date="20/07/2020" title="Vhoot.com"/>
-            <Latest5EpisodeTemplate image={boothImage} date="20/07/2020" title="Vhoot.com"/>
-            <Latest5EpisodeTemplate image={boothImage} date="20/07/2020" title="Vhoot.com"/>
+            <Latest5EpisodeTemplate image={bhootureImg} date="20/07/2020" title="Vhoot.com"/>
+            <Latest5EpisodeTemplate image={bhootureImg} date="20/07/2020" title="Vhoot.com"/>
+            <Latest5EpisodeTemplate image={bhootureImg} date="20/07/2020" title="Vhoot.com"/>
+            <Latest5EpisodeTemplate image={bhootureImg} date="20/07/2020" title="Vhoot.com"/>
         </section>
     )
 }
