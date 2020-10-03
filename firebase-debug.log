@@ -1,0 +1,260 @@
+[debug] [2020-09-28T11:37:36.722Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:37:36.724Z] Command:       /usr/bin/node /usr/bin/firebase login
+[debug] [2020-09-28T11:37:36.725Z] CLI Version:   8.11.2
+[debug] [2020-09-28T11:37:36.725Z] Platform:      linux
+[debug] [2020-09-28T11:37:36.725Z] Node Version:  v12.18.4
+[debug] [2020-09-28T11:37:36.725Z] Time:          Mon Sep 28 2020 19:37:36 GMT+0800 (China Standard Time)
+[debug] [2020-09-28T11:37:36.725Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:37:36.726Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=854651531&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-28T11:38:12.167Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gE3sOJOb7RwDHy35qdJ9VG-anUtMpkgkuLs7ojbH2l-mztfeqX_uz0TqpMO-xbStNmTa03nw0E0G98G9dX1Tu0","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:40:12.193Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gE3sOJOb7RwDHy35qdJ9VG-anUtMpkgkuLs7ojbH2l-mztfeqX_uz0TqpMO-xbStNmTa03nw0E0G98G9dX1Tu0","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:40:23.147Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:40:57.510Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gHjEJ07TlrRdyNkNOXMc-4LG-ipSckSA_IvOqXrDTkKDn00_SAUWuI-p5UQrI073j7kl2c-Mr72HPmJkJ65oqc","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:41:56.153Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:41:56.157Z] Command:       /usr/bin/node /usr/bin/firebase login
+[debug] [2020-09-28T11:41:56.157Z] CLI Version:   8.11.2
+[debug] [2020-09-28T11:41:56.157Z] Platform:      linux
+[debug] [2020-09-28T11:41:56.157Z] Node Version:  v12.18.4
+[debug] [2020-09-28T11:41:56.158Z] Time:          Mon Sep 28 2020 19:41:56 GMT+0800 (China Standard Time)
+[debug] [2020-09-28T11:41:56.158Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:41:56.158Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=15889845&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-28T11:42:09.603Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gEV2njBCU5gUP9_p_z7a_fozDXwwWnS7WvSudNLg8cs0B9GPhJ-QSODmDjm2BYIQ23NBFWghYYUwPnmc0-JzpI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:44:09.612Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gEV2njBCU5gUP9_p_z7a_fozDXwwWnS7WvSudNLg8cs0B9GPhJ-QSODmDjm2BYIQ23NBFWghYYUwPnmc0-JzpI","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:44:20.714Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:45:35.753Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:45:35.757Z] Command:       /usr/bin/node /usr/bin/firebase login
+[debug] [2020-09-28T11:45:35.757Z] CLI Version:   8.11.2
+[debug] [2020-09-28T11:45:35.757Z] Platform:      linux
+[debug] [2020-09-28T11:45:35.757Z] Node Version:  v12.18.4
+[debug] [2020-09-28T11:45:35.758Z] Time:          Mon Sep 28 2020 19:45:35 GMT+0800 (China Standard Time)
+[debug] [2020-09-28T11:45:35.758Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:45:35.758Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=857519550&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-28T11:45:54.780Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gExneRIeRdlhbnouoBtFiwRzbSSjC5vdySet9Agg7yxl28LpwQ0ruAxs7SRB0_enWRZzvGJL8LVF_Ifgb-tMNU","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:47:41.514Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:47:41.516Z] Command:       /usr/bin/node /usr/bin/firebase login:ci
+[debug] [2020-09-28T11:47:41.516Z] CLI Version:   8.11.2
+[debug] [2020-09-28T11:47:41.516Z] Platform:      linux
+[debug] [2020-09-28T11:47:41.517Z] Node Version:  v12.18.4
+[debug] [2020-09-28T11:47:41.517Z] Time:          Mon Sep 28 2020 19:47:41 GMT+0800 (China Standard Time)
+[debug] [2020-09-28T11:47:41.517Z] ----------------------------------------------------------------------
+[debug] [2020-09-28T11:47:41.517Z] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=257124640&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-09-28T11:47:49.662Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:49:49.760Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:50:00.682Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:51:49.860Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:51:59.471Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:53:49.960Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:54:00.297Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:55:50.059Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:56:01.129Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:57:50.159Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T11:57:59.917Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T11:59:50.259Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T12:00:00.745Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T12:01:50.358Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T12:01:59.529Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T12:03:50.460Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T12:04:00.361Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T12:05:50.558Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/4gGhRS8v8Bz_Rt2b2YB5E-SZEpijnE1-0PxODr6wCuI5aJVrPdGJS5OgLERmqAwP-euOOwcJjFEsuFpg9y7-opA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-09-28T12:06:01.193Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[debug] [2020-09-28T12:07:59.978Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.77:443
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.onRequestError (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:483:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

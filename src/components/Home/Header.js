@@ -8,7 +8,7 @@ const Header = () => {
     const title = data.home.header.title;
     return (
         <section className='header'>
-            <h1>{title}</h1>
+            {/* <h1>{title}</h1> */}
         </section>
     )
 }
